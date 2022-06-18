@@ -1,0 +1,8 @@
+@media screen and (max-width:1440px){
+    body{
+        background-image: url(html.jpg.jpg);
+        background: hsl(0, 6%, 93%) url(bg-intro-desktop.png);
+        padding: 100px;
+    }
+    
+}

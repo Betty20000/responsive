@@ -1,0 +1,46 @@
+html{
+    @media screen and (max-width:1440px)
+     {
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+    }
+}
+body{
+    background: hsl(0, 33%, 96%) url(bg-intro-desktop.png);
+}
+main {
+    background:hsl(0, 100%, 74%)  url(bg-intro-desktop.png);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+main {
+    height: 100vh;
+    font-family:(https://fonts.google.com/specimen/Poppins;)
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left {
+    flex: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.right {
+    flex: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+
+}
